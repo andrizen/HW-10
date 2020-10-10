@@ -1,0 +1,199 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	 background: #FAFAFA;
+}
+.navbar{
+	border-bottom: 1px solid black;
+}
+
+.nav-icons{
+	display: flex;
+	justify-content: space-around;
+}
+
+#relat{
+	position: relative; 
+}
+#circle{
+	position: absolute;
+	top: -6px;
+	right: -6px;
+}
+#five{
+	position: absolute;
+	top: -5px;
+	right: 0;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 14px;
+	color: #FFFFFF;
+}
+
+input{
+  width: 216px;
+  height: 29px;
+  border: 1px solid #dbdbdb;
+  box-sizing: border-box;
+  border-radius: 3px;
+  outline: none;
+  align-self: center;
+  padding-left: 89px;
+  background: url("img/search.svg") no-repeat;
+  background-position: 72px 50%;
+}
+
+input:focus {
+  background-position: 5px 50%;
+  padding-left: 25px;
+}
+
+/*++++++++++++++++++++++++++++++++++++++++++++*/
+.avatar{
+	padding-top: 29px;
+	cursor: pointer;
+}
+
+h1{
+	font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 32px;
+color: #262626;
+}
+
+.buttons{
+	padding-left: 25px;
+}
+
+.btnb{
+  text-align: center;
+  width: 97px;
+  height: 29px;
+  background: #4094ef;
+  border-radius: 3px;
+  border: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.btns{
+  text-align: center;
+  width: 33px;
+  height: 28px;
+  background: #4094ef;
+  border-radius: 3px;
+  border: none;
+}
+
+.dot{
+	padding: 0px 3px;
+}
+
+#dots{
+	margin-left: 5px;
+}
+
+.hinfo{
+	padding-top: 36px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.inf{
+	padding-top: 24px;
+	padding-bottom: 21px;
+}
+
+.row span{
+	font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 21px;
+color: #262626;
+}
+
+.inform{
+	margin-right: 38px;
+}
+
+h3{
+	font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 21px;
+color: #262626;
+padding-bottom: 0;
+}
+
+.row a{
+	font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 21px;
+color: #133768;
+text-decoration: none;
+}
+
+.stories{
+	padding-top: 55px;
+	padding-bottom: 55px;
+
+}
+.stories img{
+	padding-right: 43px;
+	cursor: pointer;
+}
+
+.names{
+	padding-left: 18px;
+	font-style: normal;
+font-weight: bold;
+color: #262626;
+}
+
+.foto{
+	padding-top: 20px;
+}
+
+.nav{
+	border-top: 1px solid black;
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+	
+}
+
+.navpost{
+	padding-left: 5px;
+	padding-right: 35px;
+	font-style: normal;
+font-weight: bold;
+letter-spacing: 0.09em;
+color: #262626;
+}
+
+.navtag{
+	padding-left: 5px;
+	font-style: normal;
+font-weight: bold;
+letter-spacing: 0.09em;
+color: #8F8F8F;
+}
+
+.nav a{
+	text-decoration: none;
+}
+
+@media (max-width: 720px){
+	.search{
+		padding: 10px 0px;
+	}
+
+	
+}
