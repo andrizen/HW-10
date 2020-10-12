@@ -143,6 +143,7 @@ text-decoration: none;
 .stories{
 	padding-top: 55px;
 	padding-bottom: 55px;
+	display: flex;
 
 }
 .stories img{
@@ -194,6 +195,6 @@ color: #8F8F8F;
 	.search{
 		padding: 10px 0px;
 	}
-
 	
+
 }
